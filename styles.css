@@ -1,0 +1,221 @@
+/*Index Page*/
+
+/*Complete webpage*/
+html {
+    color: #082032;
+}
+
+/*Section 1*/
+
+abbr[title] {
+    text-decoration: none;
+    border-bottom: none;
+}
+
+.section-1 {
+    margin: 160px auto 160px;
+    text-align: center;
+    width: 75%;
+}
+
+.my-name {
+    padding-top: 50px;
+    font-family: 'Lobster', cursive;
+    font-size: 400%;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.sub-text {
+    color: #5F6769;
+}
+
+/*Section 2*/
+
+.section-2 {
+    background-color: #A9E4D7;
+    padding: 100px;
+    text-align: center;
+}
+
+.section-2-heading {
+    color: #ffffff;
+    margin-bottom: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+.card {
+    margin-bottom: 20px;
+    padding: 20px 20px 0px;
+}
+.card a {
+    color: #5F6769;
+    text-decoration: none;
+}
+
+.card-body {
+    padding: 10px;
+}
+
+.hover-color {
+    background-color: #EEEEEE;
+}
+
+.divider {
+    margin: 2px;
+}
+
+/*Section 3*/
+
+.section-3 {
+    text-align: center;
+    padding: 100px;
+}
+.section-3 h2 {
+    color: #082032;
+    font-weight: 700;
+    padding-bottom: 50px;
+}
+
+.fab, .fas {
+    color: #082032;
+    margin: 5px 10px;
+}
+
+.fab:hover, .fas:hover{
+    color: #A9E4D7;
+}
+
+/*Footer*/
+
+.footer {
+    background-color: #333333;
+    color: white;
+    padding: 50px;
+    text-align: center;
+    line-height: 2;
+}
+
+/*Hobbies Page*/
+
+.heading {
+    padding: 90px 100px;
+    text-align: center;
+    background-color: #A9E4D7;
+}
+
+.heading h1 {
+    text-align: center;
+    color: white;
+}
+
+.card-design {
+    max-width: 31.3%;
+    height: 250px;
+    background-size: 100%;
+    margin: 50px 1% 20px 1%;
+    background-repeat: no-repeat;
+}
+
+.hobby-1 {
+    background-image: url(images/books.jpg);
+}
+
+.hobby-2 {
+    background-image: url(images/guitar.jpg);
+}
+
+.hobby-3 {
+    background-image: url(images/yoga.jpg);
+}
+
+.menu h2 {
+    color: white;
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+    left: 5%;
+}
+
+@media (max-width: 1200px) {
+    .menu h2 {
+        color: white;
+        position: absolute;
+        right: 5%;
+        bottom: 10%;
+    }
+
+    .hobby-1 {
+        max-width: 100%;
+    }
+
+    .hobby-2 {
+        max-width: 100%;
+    }
+
+    .hobby-3 {
+        max-width: 100%;
+    }
+
+    .skill-1 {
+        max-width: 100%;
+    }
+
+    .skill-2 {
+        max-width: 100%;
+    }
+
+    .skill-3 {
+        max-width: 100%;
+    }
+
+    /*review*/
+    .work-1 {
+        max-width: 100%;
+    }
+
+    .work-2 {
+        max-width: 100%;
+    }
+
+    .work-3 {
+        max-width: 100%;
+    }
+}
+
+/*Skills*/
+
+.skill-1 {
+    background-image: url(images/programming.jpg);
+}
+
+.skill-2 {
+    background-image: url(images/database.jpg);
+}
+
+.skill-3 {
+    background-image: url(images/webdevelopment.jpg);
+}
+
+/*Work*/
+.work-1 {
+    background-image: url(images/dice.jpg);
+}
+
+.work-2 {
+    background-image: url(images/drum.jpg);
+}
+
+.work-3 {
+    background-image: url(images/tindog.jpg);
+}
+
+.hobby-1:hover, .hobby-2:hover, .hobby-3:hover,
+.skill-1:hover, .skill-2:hover, .skill-3:hover,
+.work-1:hover, .work-2:hover, .work-3:hover{
+    transition: 0.3s;
+    filter: brightness(50%);
+}
